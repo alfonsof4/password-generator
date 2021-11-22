@@ -48,7 +48,7 @@ function writePassword() {
   };
   // click cancel 4 times 
   if(!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
-    choices = alert("Please select from following options");
+    alert("Please select from following options");
   
   }
   // click ok 4 times
